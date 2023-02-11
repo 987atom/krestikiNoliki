@@ -1,0 +1,197 @@
+﻿<Window x:Class="Krestiki_Noliki.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Krestiki_Noliki"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,0,0,-6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/мятая желтая бумага.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="Blok_1" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Height="146" Width="214" Click="Button_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_2" Content="Button" HorizontalAlignment="Left" Margin="281,0,0,0" VerticalAlignment="Top" Height="146" Width="254" Click="Blok_2_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_3" Content="Button" HorizontalAlignment="Left" Margin="592,0,0,0" VerticalAlignment="Top" Height="146" Width="208" Grid.ColumnSpan="2" Click="Blok_3_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_7" Content="Button" HorizontalAlignment="Left" Margin="0,294,0,0" VerticalAlignment="Top" Height="141" Width="214" Click="Blok_7_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_5" Content="Button" HorizontalAlignment="Left" Margin="281,165,0,0" VerticalAlignment="Top" Height="100" Width="254" Click="Blok_5_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_9" Content="Button" HorizontalAlignment="Left" Margin="592,289,0,0" VerticalAlignment="Top" Height="146" Width="208" Grid.ColumnSpan="2" Click="Blok_9_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_4" Content="Button" HorizontalAlignment="Left" Margin="0,165,0,0" VerticalAlignment="Top" Height="100" Width="214" Click="Blok_4_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_6" Content="Button" HorizontalAlignment="Left" Margin="592,165,0,0" VerticalAlignment="Top" Height="100" Width="208" Grid.ColumnSpan="2" Click="Blok_6_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="Blok_8" Content="Button" HorizontalAlignment="Left" Margin="281,294,0,0" VerticalAlignment="Top" Height="141" Width="254" Click="Blok_8_Click" Visibility="Hidden">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+        </Button>
+
+
+
+        <TextBox x:Name="Text_X1" TextWrapping="Wrap" Text="X" Margin="0,0,490,294" FontSize="100" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+
+
+
+
+
+
+
+        <Button x:Name="Start" Grid.ColumnSpan="2" Click="Button_Click_1" FontSize="200">
+            <Button.Background>
+                <ImageBrush/>
+            </Button.Background>
+            <Button Content="START">
+                <Button.Background>
+                    <ImageBrush/>
+                </Button.Background>
+            </Button>
+
+
+
+
+
+
+
+
+        </Button>
+        <TextBox x:Name="Text_X2" TextWrapping="Wrap" Text="X" Margin="281,0,169,294" FontSize="100" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_X3" TextWrapping="Wrap" Text="X" Margin="586,0,0,294" FontSize="100" FontWeight="Bold" TextAlignment="Center" Grid.ColumnSpan="2" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_X4" TextWrapping="Wrap" Text="X" Margin="0,166,490,175" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_X7" TextWrapping="Wrap" Text="X" Margin="0,291,490,10" FontSize="100" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_X9" TextWrapping="Wrap" Text="X" Margin="586,289,0,5" FontSize="100" FontWeight="Bold" TextAlignment="Center" Grid.ColumnSpan="2" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_X8" TextWrapping="Wrap" Text="X" Margin="281,294,169,10" FontSize="100" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_X5" TextWrapping="Wrap" Text="X" Margin="281,166,169,175" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_X6" TextWrapping="Wrap" Text="X" Margin="592,166,-3,175" FontSize="80" FontWeight="Bold" TextAlignment="Center" Grid.ColumnSpan="2" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O1" TextWrapping="Wrap" Text="O" Margin="0,0,490,294" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O2" TextWrapping="Wrap" Text="O" Margin="281,0,169,294" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O3" TextWrapping="Wrap" Text="O" Margin="586,0,0,294" FontSize="80" FontWeight="Bold" TextAlignment="Center" Grid.ColumnSpan="2" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O7" TextWrapping="Wrap" Text="O" Margin="0,291,490,2" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O9" TextWrapping="Wrap" Text="O" Margin="586,287,0,6" FontSize="80" FontWeight="Bold" TextAlignment="Center" Grid.ColumnSpan="2" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O8" TextWrapping="Wrap" Text="O" Margin="281,291,169,2" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O4" TextWrapping="Wrap" Text="O" Margin="0,166,490,127" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O5" TextWrapping="Wrap" Text="O" Margin="281,165,169,128" FontSize="80" FontWeight="Bold" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Text_O6" TextWrapping="Wrap" Text="O" Margin="590,165,-4,128" FontSize="80" FontWeight="Bold" TextAlignment="Center" Grid.ColumnSpan="2" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Pleer_Wins" TextWrapping="Wrap" Text="Победили Крестики" Margin="10,0,0,280" Grid.ColumnSpan="2" FontSize="80" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Bot_Wins" TextWrapping="Wrap" Text="Победили нолики" Margin="0,312,10,0" Grid.ColumnSpan="2" FontSize="80" TextAlignment="Center" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+        <TextBox x:Name="Now_One" TextWrapping="Wrap" Text="НИЧЬЯ!" Margin="-13,317,0,0" Grid.ColumnSpan="2" TextAlignment="Center" FontSize="80" Visibility="Hidden">
+            <TextBox.Background>
+                <ImageBrush/>
+            </TextBox.Background>
+        </TextBox>
+
+    </Grid>
+</Window>
